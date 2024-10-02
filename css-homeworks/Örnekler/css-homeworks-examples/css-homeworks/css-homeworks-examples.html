@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf SOYLU-v12</title>
+    <style>
+        #page-header{
+            background-image:url(https://placehold.co/600x400);
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            
+            
+        }
+        .about{
+            background-image:url(https://placehold.co/600x400);
+            background: repeat;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        p {
+            color: blue;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .div:hover p {
+            color: red;
+            text-decoration: underline;
+        }
+        input {
+            padding: 18px;
+            border: 2px solidregray;
+            transition: border-color 0.5s;
+        }
+        input.focus{
+            border: color blue;
+            outline: none;
+        }
+        .active{
+            color: blue;
+            text-decoration: none;
+        }
+        .active:active{
+            color: red;
+            font-weight: bold;
+        }
+        .exa{
+            display: block;
+        }
+        .exa2{
+            display: inline;
+        }
+        .exa3{
+            display: none;
+        }
+        .sf {
+            display: inline-block;
+        }
+        .kutu{
+            margin: 100px;
+            padding: 20px;
+            border: 10px;}
+        .static{
+            position: static;
+        }
+        .relative{
+            position: relative;
+            top:100px;
+        }
+        .absolute{
+            position: absolute;
+            top:1500px;
+            left: 0px;
+        }
+        .fixed{
+            position: fixed;
+            bottom: 50px;
+            right: 100px;
+        }    
+        .sticky{
+            position: sticky;
+            top: 0px;
+            background-color: yellow;
+        }
+        .static{
+            background-color: aqua;
+
+        }
+        .bilgi2{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            font-weight:bold;
+            font-style: oblique;
+            line-height:80%;
+        }
+        .kutu2{
+            text-align: center;
+            border-radius: 15px;
+            border: 2x solid blue;
+            padding: 20px;
+            margin: 20px;
+            border-style: solid;
+            border-width: 5px;
+        }
+        body{
+            background-color: lightblue;
+        }
+        @media (max-width:600px) {
+            body{
+                background-color: red;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header id="page-header">
+        <h1>Merhaba, Ben Yusuf SOYLU</h1>
+        <p>Yazılım eğitimi alıyorum</p>
+    </header>
+    <section class="about">
+        <h2>Bilgiler</h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio distinctio deleniti itaque, aliquam labore, minus dicta mollitia officia temporibus hic praesentium ab cupiditate. Ad velit sequi esse odit suscipit itaque?
+    </section>
+
+    <section>
+        <h2>Örnekler icin bilgiler</h2>
+        <ul class="exa">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+        <ul class="exa2">
+            <li>2</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+    <ul class="exa3">
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>0</li>
+        <li>*</li>
+        <li>11</li>
+        <li>32314</li>
+        <li>423</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <ul class="sf">
+        <li>a</li>
+        <li>s</li>
+        <li>dd</li>
+        <li>ff</li>
+    </ul>
+    </section>
+
+    <section class="active">
+        <h2>Links</h2>
+    <p><a href="">Ben</a></p>
+    <p><a href="">Github</a></p>
+    </section>
+
+    <section>
+        <h2>Fotoğraf</h2>
+        <img src="https://placehold.co/100x100" alt="">
+    </section>
+
+
+    <section>
+        <h2>İletişim</h2>
+        <form action="">
+            <label for="">Adınız:</label>
+            <input type="text">
+            <br><br>
+            <label for="">Email:</label>
+            <input type="email">
+            <br><br>
+            <label for="">Mesaj:</label>
+            <textarea name="" id="" rows="6" cols="50"></textarea>
+            <br><br>
+            <input type="button" value="Gönder">
+        </form>
+    </section>
+    <div class="hov">
+        <a href="">Hover-ornek</a>
+    </div>
+
+    <div class="kutu">
+        kutu ornegi icin olusturdum.
+    </div>
+
+    <div class="static">Static Konum</div>
+    <div class="relative">Static Konum</div>
+    <div class="absolute">Static Konum</div>
+    <div class="sticky">Static Konum</div>
+    <div class="fixed">Static Konum</div>
+        <br><br><br><br><br><br><br><br><br>
+    <div class="bilgi2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minus adipisci accusantium reprehenderit exercitationem nesciunt soluta aliquid esse alias id! Doloribus perferendis laborum maxime quam atque. Provident atque saepe voluptatemasdasdsadsad</div>
+    <br><br><br><br><br><br>
+
+
+    <div class="kutu2">
+        kutu icin 2. bir cümle
+    </div>
+
+
+    <div class="resp">
+        Responsive icin yapıldı
+    </div>
+    
+</body>
+</html>
